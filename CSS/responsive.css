@@ -29,6 +29,9 @@
         width: 75%;
         text-align: center;
     }
+    .tablet-display{
+        display: none;
+    }
     .bannar-text button{
        margin-left: 12%;
     }
@@ -65,6 +68,9 @@
         padding-right: 2px;
         font-size: 23px;
     }
+    .view-all-btn{
+        display: none;
+    }
     /* footer part  */
     #footer{
         margin-top: 20px;
@@ -78,4 +84,85 @@
         padding-top: 40px;
         padding-bottom: 30px;
     }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    #header{
+        width: 95%;
+    }
+    .header-bannar{
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        height: 400px;
+    }
+    .bannar-text h1{
+        font-size: 50px;
+        width: 90%;
+        margin-top: 40px;
+    }
+    .bannar-para{
+        display: none;
+    }
+    .mobile-display{
+        display: none;
+    }
+    .tablet-display{
+        display: block;
+        margin-top: 20px;
+    }
+    #main{
+        width: 95%;
+        margin-top: 30px;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .btn-part{
+        width: 100%;
+       flex-direction: row;
+       background: none;
+       margin-top: 20px;
+       height: 50px;
+    }
+    .main-category{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .last-card{
+        display: none;
+    }
+    .view-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .view-all-btn{
+        display: block;
+        width: 100px;
+        height: 30px;
+        background-color:rgb(227, 5, 5);
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+       
+    }
+
+    /* footer part */
+    #footer{
+        margin-top: 40px;
+        height: 400px;
+    }
+    .footer-text h2{
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    .footer-menu-list{
+        width: 80%;
+        margin: auto;
+        grid-template-columns: repeat(4,1fr);
+        row-gap: 40px;
+        margin-top: 50px;
+        text-align: justify;
+    }
+   
 }
