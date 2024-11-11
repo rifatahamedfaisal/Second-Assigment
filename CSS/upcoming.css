@@ -1,0 +1,36 @@
+.blog-btn{
+    background-color: white;
+    color: black;
+}
+.upcoming-btn{
+    background-color:rgb(227, 5, 5);
+    color: white;
+}
+.flag-single-card{
+    box-shadow: 0px 0px 1px 0px;
+    padding: 60px 70px;
+    text-align: center;
+    border-radius: 10px;
+}
+.flag-img img{
+    width: 100%;
+}
+.flag-single-card h2{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.all-flag{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.flag-img img{
+    width: 100%;
+    
+}
+.flag-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
