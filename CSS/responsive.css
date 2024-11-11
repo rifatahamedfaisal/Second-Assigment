@@ -1,0 +1,81 @@
+@media screen and (max-width:576px) {
+    #header{
+        width: 95%;
+    }
+    .header-bannar{
+        flex-direction: column;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 10px;
+    }
+    .bannar-text{
+        width: 100%;
+        padding-left: 35px;
+    }
+    .bannar-text h1{
+        font-size: 33px;
+        margin-top: 30px;
+        width: 80%;
+        text-align: center;
+        
+    }
+    .bannar-para{
+        display: none;
+    }
+    .mobile-display{
+        display: block;
+        margin-top: 30px;
+        font-size: 20px;
+        width: 75%;
+        text-align: center;
+    }
+    .bannar-text button{
+       margin-left: 12%;
+    }
+    .bananr-img-part{
+        width: 95%;
+        margin-top: 20px;
+        height: 670px;
+        margin-left: 20px;
+    }
+
+    /* main part  */
+    #main{
+        margin-top: 30px;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .btn-part{
+        background: none;
+        width: 100%;
+        margin-bottom: 0px;
+        height: 200px;
+    }
+    .all-group-btn{
+        width: 190px;
+    }
+    .blog-btn{
+        width: 150PX;
+    }
+    .main-category{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .single-card-text p{
+        padding-right: 2px;
+        font-size: 23px;
+    }
+    /* footer part  */
+    #footer{
+        margin-top: 20px;
+    }
+    .footer-menu-list{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .footer-text h2{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+}
